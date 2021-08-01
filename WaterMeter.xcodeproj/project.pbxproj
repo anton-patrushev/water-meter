@@ -11,6 +11,8 @@
 		9242710D26B5B01600FF7819 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9242710C26B5B01600FF7819 /* ContentView.swift */; };
 		9242710F26B5B01800FF7819 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9242710E26B5B01800FF7819 /* Assets.xcassets */; };
 		9242711226B5B01800FF7819 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9242711126B5B01800FF7819 /* Preview Assets.xcassets */; };
+		9242711C26B5CDB400FF7819 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9242711B26B5CDB400FF7819 /* Day.swift */; };
+		9242711F26B5CE1600FF7819 /* WaterSip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9242711E26B5CE1600FF7819 /* WaterSip.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		9242710E26B5B01800FF7819 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9242711126B5B01800FF7819 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9242711326B5B01800FF7819 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9242711B26B5CDB400FF7819 /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		9242711E26B5CE1600FF7819 /* WaterSip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterSip.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,10 +56,12 @@
 		9242710926B5B01600FF7819 /* WaterMeter */ = {
 			isa = PBXGroup;
 			children = (
-				9242710A26B5B01600FF7819 /* WaterMeterApp.swift */,
-				9242710C26B5B01600FF7819 /* ContentView.swift */,
-				9242710E26B5B01800FF7819 /* Assets.xcassets */,
+				9242711A26B5CD9700FF7819 /* Models */,
+				9242711926B5CD8F00FF7819 /* Views */,
 				9242711326B5B01800FF7819 /* Info.plist */,
+				9242710C26B5B01600FF7819 /* ContentView.swift */,
+				9242710A26B5B01600FF7819 /* WaterMeterApp.swift */,
+				9242710E26B5B01800FF7819 /* Assets.xcassets */,
 				9242711026B5B01800FF7819 /* Preview Content */,
 			);
 			path = WaterMeter;
@@ -67,6 +73,22 @@
 				9242711126B5B01800FF7819 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9242711926B5CD8F00FF7819 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9242711A26B5CD9700FF7819 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9242711B26B5CDB400FF7819 /* Day.swift */,
+				9242711E26B5CE1600FF7819 /* WaterSip.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9242711F26B5CE1600FF7819 /* WaterSip.swift in Sources */,
 				9242710D26B5B01600FF7819 /* ContentView.swift in Sources */,
 				9242710B26B5B01600FF7819 /* WaterMeterApp.swift in Sources */,
+				9242711C26B5CDB400FF7819 /* Day.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
